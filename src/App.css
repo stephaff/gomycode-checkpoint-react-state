@@ -1,0 +1,31 @@
+.person{
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  background-color: beige;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
+}
+.person-left{
+  width: 120px;
+  height: 120px;
+  background-color: white;
+}
+.button-display-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+}
+.button-display-container button{
+  color: white;
+  font-size: 16px;
+  width: 135px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  background-color: #af2244;
+  cursor: pointer;
+}
